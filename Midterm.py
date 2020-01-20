@@ -6,7 +6,7 @@ import seaborn as sns
 def list_pointrange(bin, total, base):
     list_range = []
     if base !=0:
-        list_range.append((0,base))
+        list_range.append((0,base-1))
     while base<=total:
         tmp = base+bin-1
         if tmp >=total:
@@ -54,7 +54,7 @@ class Midterm():
         fig = sns_plot.get_figure()
         fig.savefig(self.op+'/'+self.en+'_'+'histgram.png',
                     inplace=True)
-        print('histgram graph has been save to ' + self.op)
+        print('histogram graph has been save to ' + self.op)
 
     def line(self):
         df, df_col = modify_colname(self.ep, self.col, self.en)
