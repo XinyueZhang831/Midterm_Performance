@@ -46,3 +46,8 @@
   mid.median()
   mid.std()
   ```
+  
+  ### Example output
+  
+  ![Output](/Testing/example.png)
+  
