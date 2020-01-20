@@ -51,3 +51,7 @@
   
   ![Output](/Testing/example.png)
   
+  ![Histogram](/Testing/Midterm2_histgram.png)
+  
+  ![Line Graph](/Testing/Midterm2_line.png)
+  
