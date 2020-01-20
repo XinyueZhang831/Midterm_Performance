@@ -24,6 +24,6 @@ After download grade as csv file from black board, you can input point range, to
 
 Example code, to show how this code work
 
-#### Author
+## Author
 
 Xinyue Zhang
